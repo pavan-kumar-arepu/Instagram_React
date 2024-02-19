@@ -9,7 +9,7 @@ import { StyleSheet,
         SafeAreaView
 } from 'react-native';
 import {Feather} from '@expo/vector-icons';
-import {Camera} from 'expo-camera';
+// import {Camera} from 'expo-camera';
 import Stories from './Stories';
 import data from './data';
 import Constants from 'expo-constants';
@@ -20,8 +20,8 @@ const INSTAGRAM_LOGO=
 
 export default function Instagram() {
 
-    const [showCamera, setShowCamera] = useState(false);
-    const [cameraType, setCameraType] = useState(Camera.Constants.Type.back);
+    // const [showCamera, setShowCamera] = useState(false);
+    // const [cameraType, setCameraType] = useState(Camera.Constants.Type.back);
 
     
     function renderItem({item, index}) {
@@ -45,8 +45,9 @@ export default function Instagram() {
         <TouchableOpacity>
         <Feather name="camera" size={24}
         onPress={()=> {
-            setShowCamera(!showCamera);
-            setCameraType(cameraType === Camera.Constants.Type.back ? Camera.Constants.Type.front :Camera.Constants.Type.back );
+            // Uncomment below code when running on real device
+            //setShowCamera(!showCamera);
+            //setCameraType(cameraType === Camera.Constants.Type.back ? Camera.Constants.Type.front :Camera.Constants.Type.back );
         }}
         />
             </TouchableOpacity>
@@ -64,16 +65,17 @@ export default function Instagram() {
         showsVerticalScrollIndicator={false}
        />
         {
-            showCamera && (
-                <Camera style={styles.camera} type={cameraType}>
-                    <View style={styles.cameraContainer}>
-                        <TouchableOpacity onPress={()=> setShowCamera(false)}>
-                            <Feather name="x" size={24} color="white" />
-                        </TouchableOpacity>
-                    </View>
+            // Uncomment below code when running on real device
+            // showCamera && (
+            //     <Camera style={styles.camera} type={cameraType}>
+            //         <View style={styles.cameraContainer}>
+            //             <TouchableOpacity onPress={()=> setShowCamera(false)}>
+            //                 <Feather name="x" size={24} color="white" />
+            //             </TouchableOpacity>
+            //         </View>
 
-                </Camera>
-            )
+            //     </Camera>
+            // )
         }
 
     </SafeAreaView>
