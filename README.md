@@ -28,7 +28,7 @@ The project is organized as follows:
 - **components**: Contains reusable components used throughout the app.
 - **assets**: Contains static assets such as images and fonts.
 - **RecordedVideo**: 
-https://github.com/pavan-kumar-arepu/Instagram_React/assets/13812858/abf2e203-dd8d-47e4-a4c3-6d1b7f4aa85f
+https://github.com/pavan-kumar-arepu/Instagram_React/assets/13812858/b0960d9e-5fd0-45ac-98d8-b60375f4e537
 - **iOS Screens**: Contains the main screens of the app (e.g., Instagram feed, stories).
 ![iOS2](https://github.com/pavan-kumar-arepu/Instagram_React/assets/13812858/2b6f2e25-0359-4aed-9b43-7d60af87210d)
 ![iOS1](https://github.com/pavan-kumar-arepu/Instagram_React/assets/13812858/239bf128-aae4-4897-a8c0-8a2fa0eec1db)
@@ -51,12 +51,10 @@ https://github.com/pavan-kumar-arepu/Instagram_React/assets/13812858/abf2e203-dd
 
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-1. Fork the repository.
+1. Fork the repository. -> https://github.com/pavan-kumar-arepu/Instagram_React
 2. Create a new branch (`git checkout -b feature/your-feature-name`).
 3. Make your changes and commit them (`git commit -am 'Add new feature'`).
 4. Push to the branch (`git push origin feature/your-feature-name`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## You want to contact me!: iOSDeveloper.ipa@gmail.com
